@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./value_operator.css">
+    <title>value&operator</title>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Home work.web</h1>
+        <p>This is the website where I put my homework~</p>
+    </div>
+    <div class="topnav">
+        <a href="#">CSS</a>
+        <a href="#">JS</a>
+        <a href="#">home</a>
+    </div>
+    <div class="row">
+        <div class="notebar">
+
+        </div>
+
+        <div class="main">
+            <hr>
+            <h2 style="text-align: center;">JS variable declare</h2>
+            <hr>
+            <p id="demo">5 + 6 = ?</p>
+            <button class="buttonstyle1" type="button" onclick="document.getElementById('demo').innerHTML=5+6">
+                Ans
+            </button>
+            <h3>What are variables?</h3>
+            <p>
+                In a programming language, variables are used to store data values.<br>
+                JavaScript uses the keywords <b>var, let</b> and <b>const</b> to declare variables.
+            </p><br>
+
+            <h3>4 Ways to Declare a JavaScript Variable:</h3>
+            <ul>
+                <li>Using <b>var</b></li>
+                <li>Using <b>let</b></li>
+                <li>Using <b>const</b></li>
+                <li>Using nothing</li>
+            </ul><br>
+
+            <h3>What's the differences?</h3>
+            <h4>When to Use JavaScript var?</h4>
+            <p>If you want your code to run in older browser, you must use <b>var</b>.</p><br>
+            <h4>different between const & let</h4>
+            <ul>
+                <li><b>const</b> keywords are constant values and cannot be changed.</li><br>
+                <li>If you think the value of the variable can be changed, use <b>let</b>.</li>
+            </ul><br>
+
+            <h3>JavaScript Arithmetic</h3>
+            <p>As with algebra, you can do arithmetic with JavaScript variables, using operators like <b>=</b> and
+                <b>+</b>:</p>
+            <h4>What's the answer?</h4>
+            <ol>
+                <li id="01">let x = 5 + 2 + 3;<button class="buttonstyle1" type="button"
+                        onclick="document.getElementById('01').innerHTML=5+2+3">
+                        Ans
+                    </button></li>
+                <li id="02">let x = "John" + " " + "Doe"; <button class="buttonstyle1" type="button"
+                        onclick="document.getElementById('02').innerHTML='John' + ' ' + 'Doe'">
+                        Ans
+                    </button></li>
+                <li id="03">let x = "5" + 2 + 3; <button class="buttonstyle1" type="button"
+                        onclick="document.getElementById('03').innerHTML='5'+ 2 + 3">
+                        Ans
+                    </button>
+                </li>
+            </ol>
+            <div class="note">
+                <h4>Note</h4>
+                <p>If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+                </p>
+            </div>
+            <br>
+            <hr>
+
+            <h2 style="text-align: center;">What operator means?</h2>
+            <table style="width:90%">
+                <tr>
+                    <th style="width:20%">Operator</th>
+                    <th style="width:70%">Meaning</th>
+                </tr>
+                <tr>
+                    <td>+</td>
+                    <td>代表正號，或者是加。</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>代表負號，或者是減</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>代表乘</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>代表除</td>
+                </tr>
+                <tr>
+                    <td>%</td>
+                    <td>代表取餘數</td>
+                </tr>
+            </table><br>
+
+            <table style="width:90%">
+                <tr>
+                    <th style="width:20%">複合式</th>
+                    <th style="width:70%">Meaning</th>
+                </tr>
+                <tr>
+                    <td>+=</td>
+                    <td>先加，再將加後的值指回原本的變數</td>
+                </tr>
+                <tr>
+                    <td>-=</td>
+                    <td>先減，再將減後的值指回原本的變數</td>
+                </tr>
+                <tr>
+                    <td>*=</td>
+                    <td>先乘，再將乘後的值指回原本的變數</td>
+                </tr>
+                <tr>
+                    <td>/=</td>
+                    <td>先除，再將除後的值指回原本的變數</td>
+                </tr>
+                <tr>
+                    <td>%=</td>
+                    <td>先取餘數，再將餘數指回原本的變數</td>
+                </tr>
+                <tr>
+                    <td>++</td>
+                    <td>代表指定數加1</td>
+                </tr>
+                <tr>
+                    <td>--</td>
+                    <td>代表指定數減1</td>
+                </tr>
+                <tr>
+                    <td>**</td>
+                    <td>代表指定數的次方</td>
+                </tr>
+                <tr>
+                    <td>//</td>
+                    <td>取除法的商</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sidebar">
+            <h3>Category</h3>
+            <h3>Tag</h3>
+            <h3>About author</h3>
+        </div>
+    </div>
+    <div class="footer">
+        <p>advertise here</p>
+    </div>
+
+</body>
+
+</html>

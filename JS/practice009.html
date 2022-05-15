@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<script src="./js01.js"></script>-->
+
+</head>
+
+<body>
+    <button onclick="multiply()">multiply</button>
+    <p id="000"></p>
+    <p id="001"></p>
+    <p id="002"></p>
+    <p id="003"></p>
+    <p id ='004'></p>
+    <p id="005"></p>
+    <p id="006"></p>
+    <p id="007"></p>
+    <p id="008"></p>
+    <p id ='009'></p>
+    <script>
+        alert("hello");
+
+        function multiply() {
+            const a = 5;
+            const b = 6;
+            let c = a * b;
+            document.getElementById("000").innerHTML = c;
+        }
+
+        //opject part1
+        const operator = new Object();
+        operator.multiply = '*';
+        operator.add = '+';
+        operator.substract = '-';
+        operator.divise = '/';
+        const x = operator;
+        x.mode = '%';
+        document.getElementById('001').innerHTML = x.mode;
+        
+        let txt='';
+        for (let x in operator) {
+            txt += operator[x] + '<br>';
+            document.getElementById('002').innerHTML = txt;
+        }
+
+        delete operator['mode'];
+        //
+
+        //object part2
+        const mydesire = {
+            name: "Othsueh",
+            age: "17",
+            phone: [
+                { name: "Apple", models: ['iphone11', 'iphone12', 'iphone13'] },
+                { name: "Sony", models: ['xperia1', 'xperia5', 'xperia10'] },
+                { name: "Google", models: ['pixel5', 'pixel6', 'pixel6pro'] }
+            ],
+            favorite: function(){
+                return this.name + ' ' +'age'+ this.age + ' favorite ' + this.phone[0].models[2]+' the most.';
+            }
+        }
+        let desire = mydesire.favorite();
+        let text = '';
+        for (let i in mydesire.phone) {
+            text += "<h2>" + mydesire.phone[i].name + "</h2>";
+            for (let j in mydesire.phone[i].models) {
+                text += mydesire.phone[i].models[j] + '<br>';
+            }
+        }
+        document.getElementById("003").innerHTML = text;
+        document.getElementById("004").innerHTML = desire;
+        //
+
+        //object part3
+        const normal = {
+            name: 'othsueh',
+            age: '17',
+            city: 'Touliu',
+            date: function(){
+                return Date();
+            }
+        };
+        /*normal.date = normal.date.toString();*/
+
+        const Normal_array = Object.values(normal);
+        const Normal_string = JSON.stringify(normal);
+        document.getElementById('005').innerHTML = Normal_array;
+        document.getElementById('006').innerHTML = Normal_string;
+        //
+
+        //object part4
+        const detail = {
+            name: 'othsueh',
+            age: '17',
+            city: 'Touliu',
+            get date(){
+                return new Date();
+            }
+        };
+        document.getElementById('007').innerHTML = detail.date;
+
+        //
+        //object5
+        const user ={
+            firstname: "Chun Hsueh",
+            lastname: "Yu",
+            language: "",
+            set lang(lang) {
+                this.language = lang;
+            }
+        };
+        user.lang = "tw";
+        document.getElementById("008").innerHTML = user.language;
+    </script>
+
+   
+   
+</body>
+
+</html>

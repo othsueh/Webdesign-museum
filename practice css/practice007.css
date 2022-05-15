@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(155, 120,130, 0.3);
+    color:brown;
+}
+div{
+    background-image: url(../assets/GOPR0849.JPG);
+    background-color: rgba(200, 200, 200, 0.5);
+    border: double 6px black;
+    border-radius: 5px;
+    padding: 50px 50px;
+    margin: 20px 100px;
+}
+.style1{
+    text-align: center;
+    border: 23px sandybrown;
+    border-style: none solid;
+    border-radius: 5px;
+    margin:20px auto ;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.init{
+    outline: outset 7px fuchsia;
+    outline-offset: 20px;
+    background-color: azure;
+    border: inset 17px rebeccapurple;
+    height: initial;
+    width: initial;
+    margin: 15px 15px 70% 30px;
+    padding-left: 15px;
+
+}
+.inherit{
+    outline: dotted 5px blue;
+    color: inherit;
+    background-color: inherit;
+    text-decoration-line: underline ;
+    text-decoration-color: green ;
+    text-decoration-style: wavy ;
+    text-transform: capitalize;
+    text-indent: 30px;
+    letter-spacing: 1.5px;
+    line-height: 2.5;
+    text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
+}

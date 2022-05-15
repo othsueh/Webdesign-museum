@@ -1,0 +1,39 @@
+h1{
+    font-size: 3vw;
+    font-family: courier;
+    font-weight: 2000;
+    color: pink;
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+    font-size: 12px;
+    font-family: lucida;
+
+}
+
+li{
+    display: inline-block;
+    border: 5px;
+}
+hr.style{
+    text-shadow: 3px wavy teal;
+}
+.style1{
+    background-color: yellowgreen ;
+    color: wheat;
+}
+.style2{
+    background-color: rgb(76, 117, 230) ;
+    color: wheat;
+
+}
+.style3{
+    background-color: rgb(233, 222, 122) ;
+    color: wheat;
+
+}
+.style4{
+    background-color: rgb(218, 126, 84) ;
+    color: wheat;
+}

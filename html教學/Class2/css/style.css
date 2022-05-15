@@ -1,0 +1,26 @@
+p{
+    background-color: aquamarine;
+    border: ridge  burlywood;
+}
+#p1{
+    background-color: aquamarine;
+    border: dotted  red;
+    width: 50px;
+}
+.p2{
+    background-color: forestgreen;
+    border: dotted  floralwhite;
+    width: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+.zfont{
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: aquamarine;
+    display: block;
+}
+.zfont2{
+    font-size: 16px;
+    background-color: darkgray;
+}

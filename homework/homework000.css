@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    /*  
+    background-color: azure;
+    color:black;*/
+    font-family: 'Lucida Sans';
+    background-color: rgb(235, 245, 245);
+    font-size: larger;
+}
+.header{
+    background-color:rgb(173, 223, 238);
+    color: rgb(20, 37, 85);
+    text-align: center;
+    position:static;
+    font-size:25px;
+    font-family:'Trebuchet MS';
+    border-radius: 100px;
+}
+.topnav{
+    overflow:hidden;
+    background-color: rgba(208, 253, 253, 0.705);
+    border:3px solid rgba(161, 241, 237, 0.788);
+    border-radius: 10px;
+    width: 30%;
+    position: sticky;
+}
+.topnav a{
+    float:left;
+    display:block;
+    padding:15px 13px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(5, 89, 110);
+}
+.topnav a:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+.footer{
+    background-color: rgb(199, 250, 233);
+    color:rgba(9, 10, 10, 0.801);
+    font-size: small;
+    position:static;
+    bottom:0;
+    height: 50px;
+    width:100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.notebar{
+    flex:15%;
+    color:inherit;
+}
+.main{
+    flex: 65%;
+    background-color: rgba(219, 238, 241, 0.479);
+}
+.sidebar{
+    flex:20%;
+    background-color: white;
+    text-align: center;
+    border-left: 5px double rgb(126, 218, 241);
+    overflow: hidden;
+    
+}
+.sidebar h3{
+    color:black;
+}
+.buttonstyle1{
+    color:blue;
+    font-size: medium;
+    border: 2px rgb(126, 202, 238) solid;
+    border-radius: 10px;
+    padding:5px 4px;
+
+}
+hr{
+    color:aquamarine;
+    size: 3px;
+    border:2px groove white;
+}
+ul{
+    list-style: disc rgb(0, 132, 255);
+}
+b{
+    color:blueviolet;
+    
+}
+h2{
+    color:rgb(20, 20, 20);
+}
+h3{
+    color:rgba(35, 81, 231, 0.685);
+}
+h4{
+    color:rgba(0, 139, 139, 0.651);
+}
+h5{
+    color:rgb(20, 37, 85);
+}
+.note{
+    background-color: azure;
+    color:black;
+    padding: 1px;
+    border: 3px;
+    border-radius: 10px;
+}
+.note h4{
+    color:rgb(38, 243, 175);
+}
+table,th, td{
+    border:1px solid white;
+    border-collapse: collapse;
+    
+}
+tr:nth-child(even) {
+    background-color: #edf1f1;
+  }
+th,td{
+    text-align: center;
+    padding:10px;
+    border:2px inset white;
+    border-radius: 10px;;
+    background-color: rgb(199, 230, 240);
+}

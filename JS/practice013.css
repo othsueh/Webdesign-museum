@@ -1,0 +1,100 @@
+#img1title{
+    border:5px rosybrown solid;
+    border-radius: 5px;
+    outline: slategray 3px;
+    max-width: 600px;
+    font: 2em sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    left:40%;
+}
+#formblur{
+    border:5px rosybrown solid;
+    border-radius: 5px;
+    outline: slategray 3px;
+    max-width: 600px;
+    font: 2em sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    left:40%;
+    top:370px;
+}
+#addchange{
+    border:5px rosybrown solid;
+    border-radius: 5px;
+    outline: slategray 3px;
+    font: 2em sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    left:20%;
+    top:450px;
+    max-width: 300px;
+}
+#twolabel {
+    font: 2em sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    left:40%;
+    top:360px;
+}
+#two{
+    border:5px rosybrown solid;
+    border-radius: 5px;
+    outline: slategray 3px;
+    max-width: 600px;
+    font: 2em sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    left:40%;
+    top:370px;
+}
+form{
+    border-radius: 10px;
+    border:1em rosybrown groove;
+    position: absolute;
+    left:20%;
+    top:70%;
+}
+h1{
+    font: 5em sans-serif;
+    text-align: center;
+}
+h2{
+    font: 4em sans-serif;
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+    border:1em rosybrown groove;
+    position: absolute;
+    left:20%;
+}
+#cp{
+    border:5px rosybrown solid;
+    border-radius: 5px;
+    outline: slategray 3px;
+    font: 2em sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    left:20%;
+    top:450px;
+    max-width: 300px;
+}
+#cpdetect{
+    border:5px rosybrown solid;
+    border-radius: 5px;
+    outline: slategray 3px;
+    max-width: 600px;
+    font: 2em sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    left:40%;
+    top:400px;
+}

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test work</title>
+  </head>
+  <body>
+    <div><h1>HTML</h1></div>
+      <h2>Hypertext Markup Language</h2>
+      <div><h3>Form</h3>
+    <form>
+        <div><label for="gsearch">Check the seat:</label>
+            <input type="search" id="gsearch" name="gsearch"><p>網站內查詢內容</p><br>
+                  <lable for='button'>Ready to order?</lable><br>
+                  <input type='button' id='button' style='width:30px;height:15px;'><p>按鈕</p><br>
+                  <input type="color" id="favcolor" name="favcolor"><br>
+                  <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><p>輸入email</p>
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"></div>
+  
+            <div><br><label for="datemin">Enter a date after 2022-02-01:</label>
+    <input type="date" id="datemin" name="datemin" min="2022-02-01"><p>輸入日期(有限制)</p>
+          <label for="reserveday">Reserveday:</label>
+    <input type="date" id="reserveday" name="reserveday"><br>
+    <label for="appt">Select a time:</label>
+    <input type="time" id="appt" name="appt"><br></div>
+    
+        <label for="fname">Name:</label><br>
+        <input type='text' id='fname' name='fname'><!--輸入文字--><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+        <h4>Favorite Food</h4>
+        <input type='radio' id='ice_cream' name='favorite_food' value='ice_cream'>
+        <label for="ice_cream">ice_cream</label><br>
+        <input type='radio' id='fried_chicken' name='favorite_food' value='fried_chicken'>
+        <label for="fried_chicken">fried_chicken</label><br>
+        <input type='radio' id='neither' name='favorite_food' value='neither'>
+        <label for="neither">neither</label><br><!--空格(無法重複)-->
+        <h4>How much money do you have</h4>
+        <input type='checkbox' id='one' name='money' value='one'>
+        <label for='one'>One</label>
+        <input type='checkbox' id='two' name='money' value='two'><!--空格(可重複)-->
+        <label for='two'>Two</label><br>
+        <h4>How many people do you have?</h4>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+        <label for="myfile">Certificate your idetity:</label>
+  <input type="file" id="myfile" name="myfile"><br>
+        <input type='submit' value='Submit'> <input type="reset"><!--提交按鈕-->
+    </form></div>
+      <h3>Picture</h3><!--heading-->
+      <img src="https://media.giphy.com/media/786qVQHXMJhnO/giphy.gif" 
+      alt="My test image"
+      width="500"
+      height="300"/><!--輸出圖片-->
+      <h3>Video</h3>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <img src="https://i2.wp.com/twinfinite.net/wp-content/uploads/2021/02/spidermannowayhome1.jpg?fit=1920%2C1080&ssl=1.jpg"
+        width ="630"
+        height ="350"/></a> <!--用巢狀結構以圖片打開影片連結-->
+      <h3>Content</h3>
+      <p>normal <strong>content</strong><!--粗體字--></p>
+      <em>leftovers</em><!--斜體字-->
+      <br>
+      <p>*</p><br>
+      <p>**</p><br>
+      <p>***</p><br>
+      <p>****</p><br><!--換行-->
+
+
+  </body>
+</html>
